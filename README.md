@@ -1,2 +1,2 @@
 # MachineLearning-Learning
-This is a repo of where I learned Machine Learning in ECGR 4105
+This is a repo of learning Machine Learning in ECGR 4105 (Intro to Machine Learning)
