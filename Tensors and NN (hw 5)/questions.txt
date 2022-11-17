@@ -1,0 +1,40 @@
+Problem 1 :
+
+In our temperature prediction example, let’s change our model to a non-linear system. Consider the following description for our model:
+
+w2 * t_u ** 2 + w1 * t_u + b.
+
+
+1.a Modify the training loop properly to accommodate this redefinition. 
+
+
+1.b Use 5000 epochs for your training. Explore different learning rates from 0.1 to 0.0001 (you need four separate trainings). Report your loss for every 500 epochs per training.
+
+
+1.c Pick the best non-linear model and compare your final best loss against the linear model that we did during the lecture. For this, visualize the non-linear model against the linear model over the input dataset, as we did during the lecture. Is the actual result better or worse than our baseline linear model?
+
+
+
+
+Problem 2 :
+
+2.a. Develop preprocessing and a training loop to train a linear regression model that predicts housing price based on the following input variables:
+
+area, bedrooms, bathrooms, stories, parking
+
+For this, you need to use the housing dataset. For training and validation use 80% (training) and 20% (validation) split. Identify the best parameters for your linear regression model, based on the above input variables. In this case, you will have six parameters:
+
+U=W5*X5 + W4*X4 + W3*X3 + W2*X2 + W1*X1 + B
+
+
+2.b Use 5000 epochs for your training. Explore different learning rates from 0.1 to 0.0001 (you need four separate trainings). Report your loss and validation accuracy for every 500 epochs per each training. Pick the best linear model.
+ 
+
+
+
+Problem 3 :
+
+3.a Build a fully connected neural network for the housing dataset you did in previous problem. For training and validation use 80% (training) and 20% (validation) split. For this part, only use one hidden layer with 8 nodes. Train your network for 200 epochs. Report your training time, training loss, and evaluation accuracy after 200 epochs. 
+
+
+3.b Extend your network with two more additional hidden layers, like the example we did in lecture. Train your network for 200 epochs. Report your training time, training loss, and evaluation accuracy after 200 epochs. Analyze your results in your report. Make sure to submit your code by providing the GitHub URL of your course repository for this course. Analyze your results in your report and compare your model size and accuracy over the baseline implementation in Problem 1. a. Do you see any over-fitting?
