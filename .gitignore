@@ -1,10 +1,11 @@
 *tex*
 *latex*
-.pdf
-.docx
+*.pdf
+*.docx
 
 
-
+*.zip
+*.tar.gz
 
 
 
